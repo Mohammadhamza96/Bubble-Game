@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Gilroy", sans-serif;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+#main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(140, 247, 140);
+}
+
+#panel {
+  overflow: hidden;
+  width: 80%;
+  height: 80%;
+  border-radius: 10px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+#ptop {
+  padding: 0 5%;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  color: #000;
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+}
+
+.elem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.elem h2 {
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.box {
+  color: #37e637;
+  font-weight: 600;
+  font-size: 22px;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+#pbtm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 20px;
+  width: 100%;
+  height: calc(100% - 100px);
+}
+
+.bubble {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  background-color: rgb(3, 56, 3);
+  color: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#restartBtn {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  padding: 10px 20px;
+  background-color: #37e637;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+  display: none;
+}
