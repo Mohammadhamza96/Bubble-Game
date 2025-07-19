@@ -1,7 +1,7 @@
 
 🚀 Try It Live
 Click the link below to play the game now:
-[🔗 Bubble Game Live]  (https://mohammadhamza96.github.io/js-projects/)
+🔗 Bubble Game Live     (https://mohammadhamza96.github.io/Bubble-Game/)
 
 
 
